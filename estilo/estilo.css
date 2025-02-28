@@ -1,0 +1,45 @@
+h2{
+    font-size: 30px;
+    font-family: "Gowun Batang", serif;
+}
+p{
+    font-family: "Sofadi One", system-ui;
+}
+section{
+    width: 1800px;
+    height: 6000px;
+    background-color: aqua;
+    margin: 0 auto;
+}
+.foto{
+    width: 400px;
+    height: 400px;
+    border-top: 2px tomato ridge;
+    border-bottom: 2px tomato ridge;
+    float: left;
+    margin: 2px;
+    position: relative;
+    overflow: hidden;
+}
+.info{
+    width: 400px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.808);
+    color: white;
+    padding: 28px;
+    box-sizing: border-box;
+
+    position: absolute;
+    top: 300px;
+    transition: .5s;
+}
+.info:hover{
+    top: 0;
+}
+.info a{
+    padding: 10px 15px;
+    background-color: rgb(233, 119, 180);
+    color: white;
+    font-family: "Gowun Batang", serif;
+    border-radius: 10px;
+}
